@@ -1,0 +1,109 @@
+
+  input[type="email"] {
+    appearance: none;
+  
+    width: 100%;
+    border: 1px solid #333;
+    margin: 0;
+  
+    font-family: inherit;
+    font-size: 90%;
+  
+    box-sizing: border-box;
+  }
+  
+  /* invalid fields */
+  input:invalid {
+    border-color: rgb(194, 189, 189);
+    background-color: #fdd;
+  }
+  
+  input:focus:invalid {
+    outline: none;
+  }
+  #mylegend{
+  background-color:#afcd;
+  text-transform:uppercase;
+  }
+  input[type="text"] {
+    background-color: white;
+    padding-left: 40px;
+    border:none;
+  }
+  input[type=date] {
+    background-color: white;
+    padding-left: 40px;
+    border:none;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin:8px 0;
+  }
+  select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    margin:8px 0;
+  }
+  .radio{
+  display:flex;
+  width:20vw;
+  }
+  label,option{
+  text-transform:uppercase;
+  }
+  input[type="submit"] {
+  background-color:#abcd;
+  color:purple;
+  padding:10px;
+  box-sizing:border-box;
+  border-radius:15px;
+  box-shadow: 10px 10px 5px lightblue inset;
+  text-align:center;
+  }
+
+/* Styling valid inputs with a green border */
+input:valid {
+    border: 2px solid rgb(241, 207, 192);
+  }
+  /* Styling invalid inputs with a red border */
+  input:invalid {
+    border: 2px solid rgba(242, 149, 149, 0.844);
+  }
+  /* Highlighting required fields with a blue outline */
+  input:required {
+    outline: 1px solid rgb(238, 156, 156);
+  }
+input:invalid:required{
+    background-image: linear-gradient(to right,rgba(198, 190, 192, 0.867),rgba(238, 209, 215, 0.867));
+}  
+/* error message styles */
+.error {
+    width: 100%;
+    padding: 0;
+  
+    font-size: 80%;
+    color: white;
+    background-color: rgb(234, 187, 187);
+    border-radius: 0 0 5px 5px;
+  
+    box-sizing: border-box;
+  }
+  
+  .error.active {
+    padding: 0.3em;
+  }
+  p * {
+    display: block;
+  }
+  
+  

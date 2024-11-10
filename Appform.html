@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> contact page</title>
+<link rel="stylesheet" href="style1.css"/>
+<link rel="stylesheet" href="form.css"/>
+<link rel="stylesheet" href="vabar.css"/>
+</head> 
+<body>
+<header class="header">
+<nav class="navbar">
+<ul>
+<li><a href="home.html">home</a></li>
+<li><a href="about_us.html">about us</a></li>
+<li><a href="Appform.html">contact us</a></li>
+<li><a href="#services.html">Our Services</a></li>
+<li><a href="#blog.html">Blog</a></li>
+</ul>
+</nav>
+</header>
+
+<div class="container">
+  <div>
+ <p style="padding: 10px;margin: 10px;"> Public Views on the Lifting of the GMO Ban in Kenya </p>
+ </div>
+<div class="form" >
+<fieldset>
+<legend id="mylegend" >Send us your views </legend>
+<form>
+<div>
+<input type="text" name="UserName" id= "username" placeholder="type your name here--" minlength="10" maxlength="100" required/> 
+</div>
+<div>
+<input type="email" id="email"  placeholder=" example: prefix@domain" required minlength="5"/> 
+<span class="error" aria-live="polite"></span>
+</div>
+<div class="radio">
+<label for="Gender">Gender: </label> <input type="radio" name="Gender"  value="Femae" checked="checked">
+<label for="female">Female</label>
+<input type="radio" name="Gender"  value="male" >
+<label for="female">Male</label>
+<input type="radio" name="Gender"  value="other" >
+<label for="female">other</label>
+</div>
+<div>
+<label for="county">County of Birth: </label>
+<select name="counties" required>
+<option value="">Select a county...</option>
+<option> Nakuru</option>
+<option> Kisii</option>
+<option> Kisumu</option>
+<option> Kajiado</option>
+<option> Meru</option>
+</select> 
+</div>
+<div>
+<input type="text" name="subject" id="subject" placeholder="subject----" maxlength="100" required/> 
+</div>
+<div>
+<textarea cols="10" rows="5" placeholder="Enter your message here--" maxlength="1000"></textarea>
+</div>
+<div id="submit">
+<input type="submit" id="submit" name="submit" value="	SEND"/>
+</div>
+</form>
+</fieldset>
+</div>
+</div>
+</body>
+<script src="form.js" defer></script>
+
+</html>
